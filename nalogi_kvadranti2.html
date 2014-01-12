@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<title>Koordinatni sistem</title>
+		<script src="js/koGrid.js"></script>
+	</head>
+	<body>
+		
+		<div class="screen">
+			
+			<div class="top">
+				
+				<div class="naslov">
+					KOORDINATNI SISTEM
+				</div>
+				<div class="avtorji">
+					...by Gregor Rus, Boštjan Skok, Matej Stipič
+				</div>
+			</div>
+			
+			<div class="clanek">
+				<div class="podnaslov">KVADRANTI - NALOGA</div>
+				<br />
+				<div class="povzetek">
+					
+					Rešite sledečo nalogo:
+				</div>
+				<br />
+				<div class="naloga"  style="position: relative;height: 520px;width:500;" >
+					<canvas id="myCanvas" width="500" height="500"
+					style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+					<canvas id="layer2" width="500" height="500"
+					style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+				<div class="povzetek" >
+					<label  id="LablePointToFind">x os</label>
+					<button type="reset" id="reset" onclick="NewRandomPoint()" >Nova naloga</button>
+				</div>
+				<script>
+				main();
+				Nal2();
+				</script>
+				
+				
+				
+				<div class="clanek_text">
+					<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				</div>
+			</div>
+			<!------------------------------------- SPODAJ NAVIGACIJA --------------------------------------->
+			<div class="spodaj">
+				<div class="nextArrow">
+					<a href="nalogi_zrcaljenje.html">
+					<img src="images/next.png"  />
+					</a>
+				</div>
+				
+				<div class="backArrow">
+					<a href="nalogi_kvadranti.html">
+					<img src="images/back.png"  />
+					</a>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

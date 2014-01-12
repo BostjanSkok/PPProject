@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+
+<title>Koordinatni sistem</title>
+
+</head>
+	<body>
+		
+		<div class="screen">
+			
+			<div class="top">
+				
+				<div class="naslov">	
+					KOORDINATNI SISTEM
+				</div>
+				<div class="avtorji">	
+					...by Gregor Rus, Boštjan Skok, Matej Stipič
+				</div>
+
+			</div>
+			
+			<div class="clanek">
+			<div class="podnaslov">ZRCALJENJE - NALOGA</div>
+
+			 <br />
+			<div class="povzetek">
+				
+				Rešite sledečo nalogo:
+			</div>
+			 <br /> 
+			 <div class="naloga">
+			<canvas id="primer1" width="500" height="500" ></canvas>
+		<br/>
+		<br/>
+		<br/>
+		</div>
+		<div class="povzetek">
+		<input type = "radio" name="x" id="x_os" value="x" checked="checked" onclick="handleClick(this)"/>
+		<label for ="x_os">x os</label>
+		
+		<input type = "radio" name="x" id="y_os" value="y" onclick="handleClick(this)" />
+		<label for ="y_os">y os</label>
+		
+		<input type = "radio" name="x" id="xy_os" value="xy" onclick="handleClick(this)" />
+		<label for ="xy_os">koordinatno izhodišče</label>
+		<br/>
+		<br/>
+		<label for="x">Vrednost X </label>
+		<input type ="text" id="x_os_vrednost" size="5">
+		<label for="y">Vrednost Y</label>
+		<input type="text" id="y_os_vrednost" size="5">
+		<br/>
+		<br/>
+		<label for="x">Prezrcaljena Vrednost X </label>
+		<input type ="text" id="x">
+		<label for="y">Prezrcaljena Vrednost Y</label>
+		<input type="text" id="y"><br/>
+		<button type="button" id="gumb" onclick="preveri()">Preveri</button>
+		<button type="reset" id="reset" onclick="graf()">Nova naloga</button>
+		</div>
+		<script language="javascript" src="js/naloga.js">
+		</script>
+			 
+			 
+		
+			
+			<div class="clanek_text">
+			<br /> <br /> 
+			
+			<textarea rows="4" cols="110" id="odgovor">
+			</textarea>
+			<br /> <br /> <br /> <br /> <br /> <br />  	 
+			
+			</div>
+
+			</div>
+			<!------------------------------------- SPODAJ NAVIGACIJA --------------------------------------->
+			<div class="spodaj">
+				<!-- <div class="nextArrow">
+					<a href="nalogi_zrcaljenje.html">
+					<img src="images/next.png"  /> 
+					</a>
+				</div>-->
+				
+				<div class="backArrow">
+					<a href="nalogi_kvadranti.html">
+					<img src="images/back.png"  /> 
+					</a>
+				</div>
+				
+				
+			</div>
+						
+		</div>
+		
+	</body>
+</html>

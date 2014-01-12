@@ -1,0 +1,129 @@
+body
+{
+	padding:0px;
+	margin:0px;
+	background:#ededed;
+	color:#000;
+	font-weight:normal;
+}
+
+.screen{
+	width: 100%;
+    text-align: left;
+    top: 0px;
+    position: relative;
+    
+}
+
+.mainbottom{
+	width: 100%;
+}
+
+.naslov{
+	text-align: center;
+	padding-top: 10px;
+	margin:0px;
+	font: 42px Tahoma, Geneva, sans-serif;
+	color:#fbfbfb;
+	font-weight: bold;
+}
+
+.podnaslov{
+	text-align: center;
+	padding-top: 20px;
+	margin:0px;
+	font: 22px Tahoma, Geneva, sans-serif;
+	color:#757575;
+	font-weight: bold;
+}
+
+.avtorji{
+	text-align: center;
+	
+	margin:0px;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color:#fbfbfb;
+	
+}
+
+.top{
+	float:left;
+	width:100%;
+	height:80px;
+	margin-top: -80px;
+	color:#fff;
+	background: #ff7f27; /* Old browsers */
+	box-shadow: 0px 0px 10px #858585;
+	position:relative;
+}
+
+.clanek{
+    width: 1000px;
+   	background: #fff;
+	left: 50%; 
+	margin-left: -500px;
+	margin-top: 80px;
+	position:relative;
+	box-shadow: 0px 0px 10px #ff7f27;
+}
+
+.povzetek{
+	color: #fff;
+   	background: #47a30f;
+   	left: 50px; 
+	width: 900px;
+	padding: 5px;
+	font: 15px Tahoma, Geneva, sans-serif;
+	position:relative;
+	border-radius:10px;
+	
+}
+
+.clanek_text{
+   	left: 50px; 
+	width: 900px;
+	padding: 5px;
+	font: 14px Tahoma, Geneva, sans-serif;
+	position:relative;
+	font: 13px/15px Tahoma, Geneva, sans-serif;
+}
+
+.slikaCenter{
+	text-align: center;
+}
+
+.spodaj{
+	 width: 1000px;
+    height: 50px;
+	left: 50%; 
+	margin-left: -500px;
+	position:relative;
+
+}
+
+.nextArrow{
+	width: 100px;
+	height: 50px;
+	position:relative;
+	float: right;
+
+}
+
+.backArrow{
+	width: 100px;
+	height: 50px;
+	position:relative;
+	float: left;
+
+}
+hr{
+	border: 0px;
+	height: 1px;
+	color: #ff7f27;
+	background-color: #ff7f27;
+}
+
+.naloga
+{
+	margin-left:200px;
+}
